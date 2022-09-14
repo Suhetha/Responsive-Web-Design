@@ -1,0 +1,125 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+	 background-color:lavender; }
+  *{
+  box-sizing: border-box; }
+.row::after {
+  content: "";
+  clear: both;
+  display: table; }
+[class*="col-"] {
+  float: left;
+  padding: 15px; }
+html {
+  font-family: "Helvetica ", sans-serif;
+}
+
+.header {
+  background-color:black;
+  color:blue;
+  padding: 20px;
+  font-size:20px;
+  text-align:center; }
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+.menu li {
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color:red;
+  color:white; }
+.menu li:hover {
+  background-color:black;   }
+.aside {
+  background-color:grey;
+  padding: 15px;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+  
+ .footer{
+	background-color:black;
+	color:tomato;
+	padding:25px;
+	font-size:15px; }
+  /* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+  </style>
+</head>
+<body>
+<div class="header">
+  <h1>CHEMUN XV</h1></div>
+
+<div class="row">
+  <div class="col- 6 col-s-3 menu">
+    <ul>
+      <li>About</li>
+      <li>Timeline</li>
+      <li>Branches</li>
+      <li>International Resources</li>
+	  <li>Contact</li>
+	  <li><video width="200" controls>
+  <source src="https://www.youtube.com/watch?v=7J7Fa_4HVIU" type="video/mp4">
+  <source src="https://www.youtube.com/watch?v=7J7Fa_4HVIU" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+<a href="https://www.youtube.com/watch?v=7J7Fa_4HVIU" target="_blank">MUN</a>.
+</li>
+    </ul>
+  </div>
+<div class="col-7">
+    <h1>ABOUT</h1>
+	
+<img src ="c.jpg">
+	<p>As humans, we are highly adaptable beings that strive to break barriers in order to prevent stagnation. We break barriers in science, technology, and arts that help us live better and easier lives. Our desire to grow has led us to changes, many of which we fail to recognize. As new technology is released it is immediately integrated into our daily lives without much forethought. Over time we have normalized ideas that seemed beyond imaginable a couple of decades ago but are fundamental to us today. Despite our ability to adapt to changes, we need stability to maintain a sense of self and belonging.</p>
+  <img src="m.jpg">
+<p>CHEMUN XV will provide a platform, through debate,  in which these questions will provoke deeper thinking within individuals. We hope to leave a positive impact on our community and around the world around us through questioning the ever-changing world we live in.</p>
+  </div>
+</div>
+<div class="col-8 col-s-9">
+<div class="aside">
+<h2>VOICE MATTERS</h2><BR>
+<p>Your voice matters. You have the right to say what you think, express your hopes and wishes and demand a better world. You have the right to agree or disagree with those in power, and to peacefully protest</p>
+
+</div>
+</div>
+</div><div class="footer">
+  <p>Designed by: Mia mathew<br><p>
+  For further detils
+  <a href="mailto:hege@example.com">hege@example.com</a></p>
+</div></body>
+</html>
